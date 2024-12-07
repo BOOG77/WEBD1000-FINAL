@@ -1,0 +1,173 @@
+/* General Styles */
+@font-face {
+    font-family: "Eagle Lake";
+    src: url(Fonts/EagleLake-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: beige;
+    color:#f8fafc;
+}
+
+/* Main Nav */
+.main-nav {
+    display: flex;
+    justify-content: space-between;/*opposite side of logo*/
+    align-items: center;
+    padding: 10px 20px;/*top/bot - right/left*/
+    background-color: #1e293b;
+
+    position: sticky;/*makes the nave stay at the top*/
+    top: 0;/*starting position of stick*/
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-nav .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #22d3ee;
+}
+
+.main-nav .main-menu {
+    list-style: none;
+    display: flex;/*spread out*/
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav .main-menu li {
+    margin: 0 15px; /*distance between .main-menu items*/
+}
+
+.main-nav .main-menu a {
+    text-decoration: none;
+    color: #f8fafc;
+    font-size: 18px;
+}
+
+.main-nav .main-menu a:hover {
+    color: #22d3ee;
+}
+ 
+.navInImg {
+    height: 300px;
+    width: 210px;
+    top: 100px;
+    position: fixed;
+}
+.navInImg img{
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .75));
+}
+
+
+/* Menu Nav */
+.page-nav {
+    /*position on page*/
+    left:34px;
+    top:242px;
+
+    width:110px;
+    height: 110px;
+    padding: 10px 15px;
+    position: fixed;/*when you scroll it doesn't move*/
+}
+
+.page-nav ul {
+    /*vertical nav*/
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.page-nav ul li {
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.page-nav ul a {
+    
+    text-decoration: none;
+    font-weight: bold;
+    color:#301709;
+
+    font-size: 18px;
+    font-family: "Eagle Lake", serif;
+    font-style: normal;
+}
+
+.page-nav ul a:hover {
+    color: #22d3ee;
+    text-decoration: overline underline;
+}
+
+/* Content */
+.content-section {/*all the content is same padding and width*/
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    color:black;
+    text-align: center;
+}
+.content-section ul{
+    list-style-type: none;
+}
+.content-section h2 {
+    color: green;
+    margin-bottom: 20px;
+}
+
+
+.divider {/*seperates the content so it looks like boxes*/
+    width: 100%;
+    height: 2px;
+    background-color: #1e293b;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e293b;
+    color: #f8fafc;
+    margin-top: 50px;
+}
+
+
+
+
+
+#welcome {
+    width: 100%;
+    height: 250px; /* Adjust the height as needed */
+    background-image: url("../Images/tavern.jpeg");
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0px; /* Adjust for extra padding if needed */
+}
+
+#welcome h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Adds a shadow to make text stand out */
+}
+
+#welcome p {
+    font-size: 1.2rem;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6); /* Shadow for readability */
+}
+
+
+
+
+
+
