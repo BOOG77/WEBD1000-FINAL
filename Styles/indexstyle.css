@@ -7,14 +7,12 @@ background-size: cover;
 
 
 .logo {
-	height: 100%;
+    position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
 	margin: auto;
-    width: auto;
-    padding-left: 2.5%;
 }
 
 .logo_header {
@@ -22,6 +20,7 @@ background-size: cover;
 	height: 150px;
 	background-color: limegreen;
 	position: relative;
+    padding-bottom: 10%;
 }
 
 nav.horizontalNav {
