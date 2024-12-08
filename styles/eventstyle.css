@@ -1,53 +1,59 @@
 /* match nav bar and logo to new nav */
 
 /* logo and nav bar */
-nav.horizontalNav {
-	background: black;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	display: flow-root;
-}
-.logo {
-	height: 100%;
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	margin: auto;
-    width: auto;
-	padding-bottom: 2px;
+/* Main Nav */
+.main-nav {
+    display: flex;
+    justify-content: space-between;/*opposite side of logo*/
+    align-items: center;
+    padding: 10px 20px;/*top/bot - right/left*/
+    background-color: black;
+
+    position: sticky;/*makes the nave stay at the top*/
+    top: 0;/*starting position of stick*/
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.logo_header {
-	width: 100%;
-	height: 150px;
+.main-nav .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #22d3ee;
+}
+
+.main-nav .main-menu {
+    list-style: none;
+    display: flex;/*spread out*/
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav .main-menu li {
+    margin: 0 15px; /*distance between .main-menu items*/
+}
+
+.main-nav .main-menu a {
+    text-decoration: none;
+    color: #f8fafc;
+    font-size: 18px;
+}
+
+.main-nav .main-menu a:hover {
+    color: #22d3ee;
+}
+ 
+.navInImg {
+    height: 300px;
+    width: 210px;
+    top: 100px;
+    position: fixed;
+}
+.navInImg img{
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .75));
+}
+body{
+	margin: 0;
 	background-color: limegreen;
-	position: relative;
-}
-body {
-    background-color: limegreen;
-    background-size: cover;
-}
-ul {
-    display: flow-root;
-    padding: 0px;
-    margin: 0px;
-}
-li {
-	list-style-type: none;
-	float: left;
-	font-size: 1.3em;
-	padding: 1em 0em 1em 0em;
-	width: 25%;
-	text-align: center;
-    color: green;
-}
-
-li:hover {
-	background: green;
-	color: white;
 }
 
 /* this week at Respawn Tavern */
@@ -83,6 +89,10 @@ div.main_container {
 	align-content: center;
 	margin: auto;
 }
+.item-1:hover{
+	transform: translateY(-1px);
+	box-shadow: 0px 6px 12px black;
+}
 .item-1 {
 	border-radius: 10px;
     grid-row-start: 1;
@@ -105,6 +115,10 @@ div.main_container {
 	margin: auto;
 	height: 200px;
 }
+.item-2:hover{
+	transform: translateY(-1px);
+	box-shadow: 0px 12px 24px black;
+}
 .event_teamlogos{
 	height: 100px;
 	width: 100px;
@@ -113,17 +127,29 @@ div.main_container {
 	margin-top: 2px;
 	margin-left: 28px;
 	float: left;
+	height: 100px;
+	width: 100px;
 }
 .logo-2{
-	margin-top: 2px;
+	margin-top: -11px;
 	margin-right: 28px;
 	float: right;
+	height: 130px;
+	width: 130px;
 }
 .vs{
 	margin-top: 2px;
 	margin-left: 75px;
 	height: 100px;
 	width: 100px;
+}
+.line{
+	height: 1px;
+	width: 450px;
+	background-color: white;
+	margin-bottom: 45px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
