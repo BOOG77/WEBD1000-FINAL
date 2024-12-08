@@ -19,6 +19,7 @@ header {
     justify-content: space-between;
     background: black;
     padding: 0 10px;
+    margin: 10px;
 }
 
 header .logo_header {
@@ -37,6 +38,7 @@ header nav.horizontalNav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 header ul {
@@ -66,7 +68,7 @@ header a {
     text-decoration: none;
     color: white;
 }
-
+/*Main nav END*/
 
 
 
