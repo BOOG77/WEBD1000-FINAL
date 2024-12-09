@@ -1,59 +1,56 @@
-/* match nav bar and logo to new nav */
-
-/* logo and nav bar */
 /* Main Nav */
 .main-nav {
     display: flex;
-    justify-content: space-between;/*opposite side of logo*/
     align-items: center;
-    padding: 10px 20px;/*top/bot - right/left*/
     background-color: black;
-
     position: sticky;/*makes the nave stay at the top*/
     top: 0;/*starting position of stick*/
-    
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	height: 50px; 
 }
-
-.main-nav .logo h1 {
-    margin: 0;
-    font-size: 24px;
-    color: #22d3ee;
+/*Gray lines inbetween nav items*/
+.vertical_line{
+	background-color: rgba(119, 136, 153, 0.473);
+	width: 1px;
+	height: 45px;
+	margin-top: 2px;
 }
-
+/*Centers the text in the boxes on the nav bar*/
+li{
+	display: flex;
+	align-items: center;
+}
+/*Hover turns the nav items gray*/
+li:hover{
+	background-color: rgb(31, 31, 31);
+}
+/*Aligns text horizontally parallel*/
 .main-nav .main-menu {
     list-style: none;
-    display: flex;/*spread out*/
-    margin: 0;
+    display: flex;
     padding: 0;
 }
-
+/*Properly spaces out the text in the nav bar*/
 .main-nav .main-menu li {
-    margin: 0 15px; /*distance between .main-menu items*/
+	height: 50px;
+    padding-left: 5px;
+	padding-right: 5px; /*distance between .main-menu items*/
+	/*changed this from margin to padding to make hover box stretch to the lines*/
 }
-
+/*Removes hyperlink underline, colours the nav text white and changes the font size*/
 .main-nav .main-menu a {
     text-decoration: none;
-    color: #f8fafc;
+    color: #e9e7e7;
     font-size: 18px;
 }
-
+/*Changes nav text to blue when you hover the text*/
 .main-nav .main-menu a:hover {
     color: #22d3ee;
 }
- 
-.navInImg {
-    height: 300px;
-    width: 210px;
-    top: 100px;
-    position: fixed;
-}
-.navInImg img{
-    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .75));
-}
-body{
-	margin: 0;
-	background-color: limegreen;
+/*Sizes and centers the nav bar logo*/
+header .logo {
+    height: 40px; /* image fits the nav */
+	display: flex;
 }
 
 /* this week at Respawn Tavern */
@@ -78,6 +75,10 @@ body{
 	font-size: 100px;
 }
 
+body{
+	margin: 0;
+	background-color: limegreen;
+}
 /* boxes containing event details (boxes going down the screen) */
 div.main_container {
 	padding-top: 20px;
