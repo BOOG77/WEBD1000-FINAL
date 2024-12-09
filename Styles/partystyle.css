@@ -25,52 +25,62 @@
         font-size: 75px;
         font-family: fantasy, 'Times New Roman';
     }
-    /* Logo designs */
-    .logo {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        margin: auto;
-    }
+/* Main Nav */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    padding: 0 10px;
+    margin: 10px;
+}
+
+header .logo_header {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+header .logo {
+    height: 80px; /* image fits the nav */
+    width: auto;
+}
+
+header nav.horizontalNav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
-    .logo_header {
-        width: 100%;
-        height: 150px;
-        background-color: limegreen;
-        position: relative;
-        padding-bottom: 10%;
-    }
-    /* Nav Bar designs*/
-    nav.horizontalNav {
-        background: black;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: flow-root;
-    }
-    /* Nav Bar designs*/
-    ul {
-        display: flow-root;
-        padding: 0px;
-        margin: 0px;
-    }
-    /* Nav Bar designs*/
-    li {
-        list-style-type: none;
-        float: left;
-        font-size: 1.3em;
-        padding: 1em 0em 1em 0em;
-        width: 25%;
-        text-align: center;
-        color: white;
-    }
-    /* Nav Bar designs hover effect*/
-    li:hover {
-        background: green;
-        color: white;
-    }
+}
+
+header ul {
+    display: flex;
+    flex-grow: 1; /*takes up the remaining space of the nav evenly*/
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    flex: 1;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.3em;
+    color: white;
+}
+
+header li:hover {
+    background: green;
+    color: white;
+}
+
+header a {
+    display: block; /*clicking the li instead of the text will take you to the page*/
+    text-decoration: none;
+    color: white;
+}
     
  /* Container for the form-This is an idea*/
 
