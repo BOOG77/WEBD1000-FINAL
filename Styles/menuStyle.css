@@ -70,12 +70,6 @@ header a {
 }
 /*Main nav END*/
 
-
-
-
-
-
-
  
 .navInImg {
     height: 300px;
@@ -91,7 +85,7 @@ header a {
 /* Menu Nav */
 .page-nav {
     /*position on page*/
-    left:34px;
+    left:30px;
     top:242px;
 
     width:110px;
