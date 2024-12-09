@@ -56,6 +56,18 @@ header .logo {
 /*End of nav*/
 
 /* this week at Respawn Tavern */
+.event_details{
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /* Horizontal centering */
+	align-items: center;
+	color: white;
+	width: 510px;
+	margin-top: -20px;
+}
+.event_details p{
+	margin: 5px;
+}
 .welcome_text{
 	display: flex;
 	justify-content: center;
@@ -153,7 +165,6 @@ div.main_container {
 	height: 1px;
 	width: 450px;
 	background-color: white;
-	margin-bottom: 45px;
 	margin-left: auto;
 	margin-right: auto;
 }
