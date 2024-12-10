@@ -88,6 +88,10 @@ h1 {
     border: 5px solid black; 
 }
 
+figure {
+    text-align: center
+}
+
 #beer {
     width: 85%;
     height: auto;
