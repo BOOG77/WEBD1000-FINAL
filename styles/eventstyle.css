@@ -92,7 +92,7 @@ header .logo {
 /*margin 0 so the nav sticks to the top, and background colour of the whole website being set*/
 body{
 	margin: 0;
-	background-color: limegreen;
+	background: rgb(66, 126, 66);
 }
 
 
