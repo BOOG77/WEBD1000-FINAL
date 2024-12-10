@@ -3,13 +3,11 @@
     font-family: "Eagle Lake";
     src: url(Fonts/EagleLake-Regular.ttf);
 }
-
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: beige;
+    background: #427e42;
     color:#f8fafc;
-    
 }
 
 /* Main Nav */
@@ -21,26 +19,21 @@ header {
     padding: 0 10px;
     margin: 10px;
 }
-
 header .logo_header {
     display: flex;
     width: auto;
     height: auto;
 }
-
 header .logo {
     height: 80px; /* image fits the nav */
     width: auto;
 }
-
 header nav.horizontalNav {
     flex-grow: 1;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 }
-
 header ul {
     display: flex;
     flex-grow: 1; /*takes up the remaining space of the nav evenly*/
@@ -49,7 +42,6 @@ header ul {
     padding: 0;
     margin: 0;
 }
-
 header li {
     flex: 1;
     text-align: center;
@@ -57,21 +49,19 @@ header li {
     font-size: 1.3em;
     color: white;
 }
-
 header li:hover {
     background: green;
     color: white;
 }
-
 header a {
     display: block; /*clicking the li instead of the text will take you to the page*/
     text-decoration: none;
     color: white;
 }
-/*Main nav END*/
+
 
  
-/*Start of Inner Nav*/
+/*Inner Nav*/
 .navInImg {
     height: 300px;
     width: 210px;
@@ -81,9 +71,6 @@ header a {
 .navInImg img{
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, .75));
 }
-
-
-/* Menu Nav */
 .page-nav {
     /*position on page*/
     left:30px;
@@ -94,35 +81,28 @@ header a {
     padding: 10px 15px;
     position: fixed;/*when you scroll it doesn't move*/
 }
-
 .page-nav ul {
     /*vertical nav*/
     margin:0;
     padding:0;
     list-style: none;
 }
-
 .page-nav ul li {
     margin-bottom: 3px;
     text-align: center;
 }
-
 .page-nav ul a {
-    
     text-decoration: none;
     font-weight: bold;
     color:#301709;
-
     font-size: 18px;
     font-family: "Eagle Lake", serif;
     font-style: normal;
 }
-
 .page-nav ul a:hover {
     color: #22d3ee;
     text-decoration: overline underline;
 }
-/*End of Inner Nav*/
 
 
 
@@ -193,6 +173,64 @@ header a {
     flex-direction: column;
     align-items: center;
 }
+
+
+
+/* Main Courses */
+#main-courses .main-course-item {/*item*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+#main-courses .main-course-item .image-container {/*image container in item*/
+    flex: 1;
+    max-width: 40%;
+    text-align: center;
+}
+#main-courses .main-course-item .image-container img {/*image in item*/
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+#main-courses .main-course-item .text-container {/*text in item*/
+    flex: 2;
+    padding: 0 20px;
+    text-align: left;
+}
+#main-courses .main-course-item .text-container h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+#main-courses .main-course-item .text-container p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+#main-courses .main-course-item .text-container h4 {
+    font-size: 1.5rem;
+    color: #222;
+}
+/*Alternating image and text*/
+#main-courses .main-course-item #alternate {
+    display: flex;
+    flex-direction: row-reverse; /* Reverse the order for alternating items */
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+#main-courses .main-course-item #alternate .image-container {
+    flex: 1;
+    max-width: 40%;
+    text-align: center;
+}
+#main-courses .main-course-item #alternate .text-container {
+    flex: 2;
+    padding: 0 20px;
+    text-align: left;
+}
 /*End of Menu Section*/
 
 footer {
@@ -201,6 +239,7 @@ footer {
     background-color: #1e293b;
     color: #f8fafc;
     margin-top: 50px;
+    font-weight: bold;
 }
 
 

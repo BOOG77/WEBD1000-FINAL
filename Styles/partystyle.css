@@ -208,6 +208,7 @@ font-size: 30px;
 }
 
 
+
 .bg-image {
 
     background-image: url("images/tavern.jpg");
@@ -222,10 +223,13 @@ font-size: 30px;
 
 
 .footer {
-    text-align: center;
-    text-decoration: underline;
-    font-family: fantasy, 'Times New Roman';
 
+    text-align: center;
+    padding: 20px;
+    background-color: #1e293b;
+    color: #f8fafc;
+    margin-top: 50px;
+    font-weight: bold;
 }
 
 
