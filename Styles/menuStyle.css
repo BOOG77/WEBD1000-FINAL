@@ -71,6 +71,7 @@ header a {
 /*Main nav END*/
 
  
+/*Start of Inner Nav*/
 .navInImg {
     height: 300px;
     width: 210px;
@@ -121,30 +122,78 @@ header a {
     color: #22d3ee;
     text-decoration: overline underline;
 }
+/*End of Inner Nav*/
 
-/* Content */
-.content-section {/*all the content is same padding and width*/
-    padding: 50px 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    color:black;
+
+
+/*Menu Section*/
+#menu {
+    padding: 0 125px;
+    color: black;
+}
+#section{
+    padding: 0 125px;
     text-align: center;
+    font-size: 2rem;
+    font-family: Verdana;
 }
-.content-section ul{
-    list-style-type: none;
+#menu_row{
+    display: flex;
+    padding: 0 100px 0 100px;
 }
-.content-section h2 {
-    color: green;
-    margin-bottom: 20px;
+#menu_col {
+    flex: 1;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #bbb;
+    border: 1px solid;
+    background-color: #fff;
+    margin: 10px;
 }
-
-
-.divider {/*seperates the content so it looks like boxes*/
+#menu_col h2 {
+    text-align: center;
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    font-family: cursive;
+    margin: 0 0 15px;
+}
+.box-container {
+    display: flex;
+    flex-wrap: wrap; /*items wrap if they don't fit in row*/
+    gap: 15px;
+    justify-content: space-between; /*spaces items out evenly*/
+}
+#image{
     width: 100%;
-    height: 2px;
-    background-color: #1e293b;
-    margin: 20px 0;
+    height: auto;
+    border-radius: 15%;
+    padding: 5px;
+    border: 2px solid #6699cc;
+    margin: 0 auto;
+    box-sizing: border-box;/*when the page gets smaller, it keeps the 5px margin*/
 }
+#image img{
+    width: 100%;
+    height: auto;
+    border-radius: 15%;
+    object-fit: cover;
+}
+.box {
+    flex: 0 1 calc(20% - 15px); /*box width, minus gap*/
+    max-width: calc(20% - 15px);
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    background-color: #f9f9f9;/**/
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*End of Menu Section*/
 
 footer {
     text-align: center;
