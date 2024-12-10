@@ -60,7 +60,7 @@ header nav.horizontalNav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-  
+    background-image: url(../Images/tavern.jpg);
     
 }
 
