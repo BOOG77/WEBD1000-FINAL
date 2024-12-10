@@ -169,4 +169,14 @@ div.main_container {
 	margin-right: auto;
 }
 
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e293b;
+    color: #f8fafc;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+
 
