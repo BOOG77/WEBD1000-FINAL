@@ -190,11 +190,13 @@ font-size: 30px;
 
 }
 
-.footer {
+footer {
     text-align: center;
-    text-decoration: underline;
-    font-family: fantasy, 'Times New Roman';
-
+    padding: 20px;
+    background-color: #1e293b;
+    color: #f8fafc;
+    margin-top: 50px;
+    font-weight: bold;
 }
 
 
