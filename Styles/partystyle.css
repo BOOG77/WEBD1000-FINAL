@@ -1,8 +1,13 @@
     /* Background colour */ 
-    
+    * {
+
+        cursor:crosshair;
+
+    }
     body {
         margin: 0;
         background: rgb(66, 126, 66);
+      
     }
 
     /* Testing Form Styles */
@@ -28,12 +33,15 @@
     }
 /* Main Nav */
 header {
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: black;
     padding: 0 10px;
     margin: 10px;
+
+
 }
 
 header .logo_header {
@@ -52,6 +60,7 @@ header nav.horizontalNav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+  
     
 }
 
@@ -62,6 +71,7 @@ header ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    
 }
 
 header li {
@@ -70,11 +80,15 @@ header li {
     padding: 1em 0;
     font-size: 1.3em;
     color: white;
+   
 }
+
+/* Color scene for hovering over a button in the nav bar */
 
 header li:hover {
     background: green;
     color: white;
+    
 }
 
 header a {
@@ -103,7 +117,7 @@ form{
 
 }
 
-
+/* sets up the grid */
 .group-form{
 
 margin-bottom: 15px;
@@ -148,8 +162,8 @@ padding: 10 px;
 border: none;
 border-radius: 5px;
 background-color: whitesmoke;
-color: limegreen;
-cursor:crosshair;
+color: rgb(66, 126, 66);
+
 
 }
 /* copied code from josh's nav bar  for hovering over the time slots */
@@ -160,35 +174,52 @@ cursor:crosshair;
 
 /* This took the longest to get right or atleast in the ball park. */
 .reserve-button {
-
 display:block;
-
 width: fit-content;
-
 padding: 10px;
-
-border-radius: 5px;
-
-margin: 10px auto 0 auto;
-
+margin: 40px auto 0 auto;
 text-align: center;
-
 text-decoration: underline;
 font-family: fantasy, 'Times New Roman';
-
-
 
 font-weight: bold;
 background-color: white;
 
-color: limegreen;
-
-cursor:crosshair;
+color: rgb(66, 126, 66);
 
 font-size: 30px;
 
+}
+
+.reserve-button:hover {
+    background: green;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    
+}
+
+
+.Newsletter{
+
+ padding-top: 20px;
+ text-align: center;
 
 }
+
+
+.bg-image {
+
+    background-image: url("images/tavern.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+}
+
+
 
 .footer {
     text-align: center;
