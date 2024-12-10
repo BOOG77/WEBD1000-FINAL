@@ -137,6 +137,8 @@ header a {
     font-family: cursive;
     margin: 0 0 15px;
 }
+
+/*Appetizer*/
 .box-container {
     display: flex;
     flex-wrap: wrap; /*items wrap if they don't fit in row*/
@@ -230,6 +232,15 @@ header a {
     flex: 2;
     padding: 0 20px;
     text-align: left;
+}
+
+/*Drinks*/
+#drinks {
+    flex:1;
+}
+/*Specials*/
+#specials{
+    flex:1;
 }
 /*End of Menu Section*/
 
