@@ -1,7 +1,8 @@
     /* Background colour */ 
     
     body {
-    background-color: limegreen;
+        margin: 0;
+        background: rgb(66, 126, 66);
     }
 
     /* Testing Form Styles */
