@@ -1,59 +1,60 @@
 /* Main Nav */
-.main-nav {
+header {
     display: flex;
     align-items: center;
-    background-color: black;
-    position: sticky;/*makes the nave stay at the top*/
-    top: 0;/*starting position of stick*/
-	height: 50px; 
-	justify-content: center;
+    justify-content: space-between;
+    background: black;
+    padding: 0 10px;
+    margin: 10px;
 }
-/*Gray lines inbetween nav items*/
-.vertical_line{
-	background-color: rgba(119, 136, 153, 0.473);
-	width: 1px;
-	height: 45px;
-	margin-top: 2px;
-}
-/*Centers the text in the boxes on the nav bar*/
-li{
-	display: flex;
-	align-items: center;
-}
-/*Hover turns the nav items gray*/
-li:hover{
-	background-color: rgb(31, 31, 31);
-}
-/*Aligns text horizontally parallel*/
-.main-nav .main-menu {
-    list-style: none;
+
+header .logo_header {
     display: flex;
-    padding: 0;
+    width: auto;
+    height: auto;
 }
-/*Properly spaces out the text in the nav bar*/
-.main-nav .main-menu li {
-	height: 50px;
-    padding-left: 10px;
-	padding-right: 10px; /*distance between .main-menu items*/
-	/*changed this from margin to padding to make hover box stretch to the lines*/
-}
-/*Removes hyperlink underline, colours the nav text white and changes the font size*/
-.main-nav .main-menu a {
-    text-decoration: none;
-    color: #e9e7e7;
-    font-size: 18px;
-}
-/*Changes nav text to blue when you hover the text*/
-.main-nav .main-menu a:hover {
-    color: #22d3ee;
-}
-/*Sizes and centers the nav bar logo. Also spaces the logo out from the line*/
+
 header .logo {
-    height: 40px; /* image fits the nav */
-	display: flex;
-	padding-right: 10px;
+    height: 80px; /* image fits the nav */
+    width: auto;
 }
-/*End of nav*/
+
+header nav.horizontalNav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../Images/tavern.jpg);
+}
+
+header ul {
+    display: flex;
+    flex-grow: 1; /*takes up the remaining space of the nav evenly*/
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    flex: 1;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 1.3em;
+    color: white;
+}
+
+header li:hover {
+    background: green;
+    color: white;
+}
+
+header a {
+    display: block; /*clicking the li instead of the text will take you to the page*/
+    text-decoration: none;
+    color: white;
+}
+/*Main nav END*/
 
 /* this week at Respawn Tavern */
 
@@ -80,6 +81,7 @@ header .logo {
 	/*https://www.geeksforgeeks.org/how-to-create-multicolored-text-in-a-web-page-using-html-css/*/
 	background: linear-gradient(limegreen, white);
 	color: transparent;
+	/*This is flagged as a problem, but when you do the fix suggested it breaks the text.*/
 	-webkit-background-clip: text;
 }
 .welcome_line{
@@ -106,8 +108,11 @@ header .logo {
 	width: 510px;
 	margin-top: -20px;
 }
+.event_details a{
+	color: limegreen;
+}
 .event_details p{
-	margin: 5px;
+	margin: 5px 0px 1px 0px;
 }
 
 .welcome_logo{
