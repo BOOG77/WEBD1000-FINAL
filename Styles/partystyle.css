@@ -95,6 +95,7 @@ header a {
     display: block; /*clicking the li instead of the text will take you to the page*/
     text-decoration: none;
     color: white;
+    text-shadow: 1px 1px black;
 }
     
  /* Container for the form-This is an idea*/

@@ -33,6 +33,7 @@ header nav.horizontalNav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: url(../Images/tavern.jpg);
 }
 header ul {
     display: flex;
@@ -57,6 +58,8 @@ header a {
     display: block; /*clicking the li instead of the text will take you to the page*/
     text-decoration: none;
     color: white;
+    text-shadow: 1px 1px black;
+    font-family:'Times New Roman', Times, serif
 }
 
 
