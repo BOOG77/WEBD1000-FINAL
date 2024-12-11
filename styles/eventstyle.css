@@ -1,3 +1,4 @@
+@charset "utf-8";
 /* Main Nav */
 header {
     display: flex;
@@ -99,22 +100,6 @@ header a {
 	margin-top: -10px;
 	font-size: 100px;
 }
-.event_details{
-	display: flex;
-	flex-direction: column;
-	justify-content: center; /* Horizontal centering */
-	align-items: center;
-	color: white;
-	width: 510px;
-	margin-top: -20px;
-}
-.event_details a{
-	color: limegreen;
-}
-.event_details p{
-	margin: 5px 0px 1px 0px;
-}
-
 .welcome_logo{
 	margin-top: -85px;
 	height: 320px;
@@ -135,14 +120,10 @@ div.main_container {
     width: 1200px;
 	display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(1, 50px);
+    grid-template-rows: repeat(2, 1fr);
 	justify-content: center;
 	align-content: center;
-	margin: auto;
-}
-.item-1:hover{
-	transform: translateY(-1px);
-	box-shadow: 0px 6px 12px black;
+	margin: -40px auto auto auto;
 }
 .item-1 {
 	border-radius: 10px;
@@ -152,13 +133,47 @@ div.main_container {
     grid-column-end: 2;
     background-color: #222222;
 	width: 85%;
-	margin: auto;
+	margin: 20px auto 40px auto;
 	height: 200px;
+}
+.item-1:hover{
+	transform: translateY(-1px);
+	box-shadow: 0px 6px 12px black;
 }
 .item-2{
 	border-radius: 10px;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    background-color: #222222;
+	width: 85%;
+	margin: 20px auto 40px auto;
+	height: 200px;
+}
+.item-2:hover{
+	transform: translateY(-1px);
+	box-shadow: 0px 12px 24px black;
+}
+.item-3{
+	border-radius: 10px;
     grid-row-start: 4;
-    grid-row-end: 1;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #222222;
+	width: 85%;
+	margin: auto;
+	height: 200px;
+}
+.item-3:hover{
+	transform: translateY(-1px);
+	box-shadow: 0px 12px 24px black;
+}
+.item-4{
+	border-radius: 10px;
+    grid-row-start: 4;
+    grid-row-end: 7;
     grid-column-start: 2;
     grid-column-end: 7;
     background-color: #222222;
@@ -166,7 +181,7 @@ div.main_container {
 	margin: auto;
 	height: 200px;
 }
-.item-2:hover{
+.item-4:hover{
 	transform: translateY(-1px);
 	box-shadow: 0px 12px 24px black;
 }
@@ -201,7 +216,24 @@ div.main_container {
 	margin-left: auto;
 	margin-right: auto;
 }
-
+.event_details{
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /* Horizontal centering */
+	align-items: center;
+	color: white;
+	width: 510px;
+	margin-top: -20px;
+}
+.event_details a{
+	color: limegreen;
+}
+.event_details p{
+	margin: 5px 0px -2px 0px;
+}
+.event_details .tournament_enlarge{
+	font-size: 21px;
+}
 footer {
     text-align: center;
     padding: 20px;
@@ -210,6 +242,7 @@ footer {
     margin-top: 50px;
     font-weight: bold;
 }
+
 
 
 
