@@ -80,7 +80,7 @@ header a {
 	font-family: 'Courier New', monospace;
 	font-weight: bold;
 	/*https://www.geeksforgeeks.org/how-to-create-multicolored-text-in-a-web-page-using-html-css/*/
-	background: linear-gradient(limegreen, white);
+	background: linear-gradient(limegreen, white 70%);
 	color: transparent;
 	/*This is flagged as a problem, but when you do the fix suggested it breaks the text.*/
 	-webkit-background-clip: text;
@@ -93,6 +93,7 @@ header a {
 	border: none;
 }
 .welcome_text h2{
+	margin-top: 5px;
 	font-size: 40px;
 	font-family: 'Courier New', monospace;
 }
@@ -101,9 +102,11 @@ header a {
 	font-size: 100px;
 }
 .welcome_logo{
-	margin-top: -85px;
-	height: 320px;
-	width: 495px;
+	border-radius: 25%;
+	margin-top: -25px;
+	margin-bottom: 20px;
+	height: 200px;
+	width: 200px;
 }
 
 
@@ -197,11 +200,11 @@ div.main_container {
 	width: 100px;
 }
 .logo-2{
-	margin-top: -11px;
+	margin-top: 2px;
 	margin-right: 28px;
 	float: right;
-	height: 130px;
-	width: 130px;
+	height: 100px;
+	width: 100px;
 }
 .vs{
 	margin-top: 2px;
