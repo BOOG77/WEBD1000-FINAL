@@ -56,6 +56,47 @@ header .logo {
 /*End of nav*/
 
 /* this week at Respawn Tavern */
+
+/*This is the container for the text above and below the logo*/
+.welcome_text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 1px;
+}
+.welcome_text .medium_text{
+	color: white;
+	text-shadow: black 2px 2px;
+	font-size: 20px;
+	margin: 5px 0px 10px 0px;
+}
+.welcome_text .big_text{
+	font-size: 35px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+	/*https://www.geeksforgeeks.org/how-to-create-multicolored-text-in-a-web-page-using-html-css/*/
+	background: linear-gradient(limegreen, white);
+	color: transparent;
+	-webkit-background-clip: text;
+}
+.welcome_line{
+	width: 1200px;
+	height: 3px;
+	border-radius: 5px;
+	background: linear-gradient(limegreen, white);
+	border: none;
+}
+.welcome_text h2{
+	font-size: 40px;
+	font-family: 'Courier New', monospace;
+}
+.welcome_text h1{
+	margin-top: -10px;
+	font-size: 100px;
+}
 .event_details{
 	display: flex;
 	flex-direction: column;
@@ -68,26 +109,13 @@ header .logo {
 .event_details p{
 	margin: 5px;
 }
-.welcome_text{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	gap: 1px;
-}
-.welcome_text h2{
-	font-size: 40px;
-	font-family: 'Courier New', monospace;
-}
+
 .welcome_logo{
 	margin-top: -85px;
 	height: 320px;
 	width: 495px;
 }
-.welcome_text h1{
-	margin-top: -10px;
-	font-size: 100px;
-}
+
 
 /*margin 0 so the nav sticks to the top, and background colour of the whole website being set*/
 body{
