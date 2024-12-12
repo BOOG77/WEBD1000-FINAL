@@ -170,13 +170,14 @@ header a {
     margin: 0;
     text-align: center;
     padding: 10px;
-    background-color: #52504d;/**/
-    border: 3px solid #031803;
+    background-color: #4e4d4c;/**/
+    border: 5px solid #1f3b1f;
     border-radius: 5px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: rgb(216, 211, 211);
 }
 .box:hover {
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
