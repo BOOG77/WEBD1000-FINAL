@@ -129,12 +129,11 @@ header a {
     padding: 10px;
     box-shadow: 2px 2px 2px #bbb;
     border: 1px solid;
-    background-color: #fff;
     margin: 10px;
 }
 #menu_col h2 {
     text-align: center;
-    background-color: red;
+    background-color: rgb(86, 209, 86);
     color: #fff;
     padding: 5px;
     font-family: cursive;
@@ -212,16 +211,16 @@ header a {
 #main-courses .main-course-item .text-container h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
-    color: #333;
+    color: #ffffff;
 }
 #main-courses .main-course-item .text-container p {
     font-size: 1rem;
-    color: #666;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 #main-courses .main-course-item .text-container h4 {
     font-size: 1.5rem;
-    color: #222;
+    color: #ffffff;
 }
 /*Alternating image and text*/
 #main-courses .main-course-item #alternate {
