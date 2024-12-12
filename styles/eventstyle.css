@@ -246,10 +246,5 @@ footer {
     margin-top: 50px;
     font-weight: bold;
 }
-.image_cite{
-	display: flex;
-	justify-content: center; /* Horizontal centering */
-	align-items: center;
-}
 
 
