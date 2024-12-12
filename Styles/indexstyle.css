@@ -1,5 +1,5 @@
 @charset "utf-8";
-
+/*background color for whole page*/
 body {
     margin: 0;
     background: rgb(66, 126, 66);
@@ -64,6 +64,7 @@ header a {
 }
 /*Main nav END*/
 
+/*style for h1*/
 h1 {
     text-align: center;
     padding-top: 20px;
@@ -72,6 +73,7 @@ h1 {
     font-family: fantasy, 'Times New Roman';
 }
 
+/*setting size for tavern image*/
 #tavern {
     width: 90%;
     height: 90%;
@@ -80,6 +82,7 @@ h1 {
     border: 5px solid black;
 }
 
+/*setting size for burger image*/
 #burger {
     width: 85%;
     height: auto;
@@ -89,11 +92,12 @@ h1 {
     border: 5px solid black; 
 }
 
+/*aligning text of the figure caption to be centered*/
 figure {
     text-align: center;
-    
 }
 
+/*setting size for beer image*/
 #beer {
     width: 85%;
     height: auto;
@@ -103,7 +107,7 @@ figure {
     border: 5px solid black; 
 }
 
-
+/*setting the grid items in the format they are, and colors, and font colors, etc.*/
 .content {
     margin-top: 30px;
 }
@@ -170,6 +174,7 @@ figure {
     color: white; 
 }
 
+/*style for bottom quote on page*/
 h2 {
     text-align: center;
     padding-top: 20px;
@@ -178,6 +183,7 @@ h2 {
     font-family: fantasy, 'Times New Roman';
 }
 
+/*footer design*/
 footer {
     text-align: center;
     padding: 20px;
