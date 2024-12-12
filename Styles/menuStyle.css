@@ -281,9 +281,10 @@ header a {
     font-weight: lighter;
     text-decoration: solid;
 }
-/*End of Menu Section*/
 
-footer {
+/*End of Menu Section*/
+footer{
+    width:100%;
     text-align: center;
     padding: 20px;
     background-color: #1e293b;
@@ -291,40 +292,3 @@ footer {
     margin-top: 50px;
     font-weight: bold;
 }
-
-
-
-
-
-#welcome {
-    width: 100%;
-    height: 250px; /* Adjust the height as needed */
-    background-image: url("../Images/tavern.jpeg");
-    background-size: cover; /* Ensures the image covers the entire area */
-    background-position: center center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents image repetition */
-    
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    padding: 0px; /* Adjust for extra padding if needed */
-}
-
-#welcome h1 {
-    font-size: 3rem;
-    color: #fff;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Adds a shadow to make text stand out */
-}
-
-#welcome p {
-    font-size: 1.2rem;
-    color: #fff;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6); /* Shadow for readability */
-}
-
-
-
-
-
-
