@@ -97,7 +97,7 @@ header a {
 .page-nav ul a {
     text-decoration: none;
     font-weight: bold;
-    color:#301709;
+    color:#d1cac5;
     font-size: 18px;
     font-family: "Eagle Lake", serif;
     font-style: normal;
@@ -152,7 +152,7 @@ header a {
     width: 100%;
     height: auto;
     border-radius: 15%;
-    padding: 5px;
+    padding: 5px 5px 2px 5px;
     border: 2px solid #6699cc;
     margin: 0 auto;
     box-sizing: border-box;/*when the page gets smaller, it keeps the 5px margin*/
@@ -193,6 +193,7 @@ header a {
     flex: 1;
     max-width: 40%;
     text-align: center;
+    margin-left: 10px;
 }
 #main-courses .main-course-item .image-container img {/*image in item*/
     width: 100%;
