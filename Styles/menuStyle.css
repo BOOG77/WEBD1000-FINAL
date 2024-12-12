@@ -239,9 +239,30 @@ header a {
 }
 
 /*Drinks*/
+
 #drinks {
-    flex:1;
+    flex: 1;
 }
+
+#drinks .box h5 {
+    text-align: left;
+    margin: 5px 0;
+    text-decoration: underline;
+}
+
+#drinks .box p {
+    margin: 0;
+    text-align: left;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: lighter;
+    text-decoration: solid;
+}
+
+#cups {
+    height: 65px;
+}
+
 /*Specials*/
 #specials{
     flex:1;
