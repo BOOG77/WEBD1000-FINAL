@@ -105,11 +105,12 @@ header a {
 	font-size: 40px;
 	font-family: 'Courier New', monospace;
 }
-/**/
+/*I don't think this does anything*/
 .welcome_text h1{
 	margin-top: -10px;
 	font-size: 100px;
 }
+/*Setting the properties of the logo under This week At*/
 .welcome_logo{
 	border-radius: 25%;
 	margin-top: -25px;
@@ -119,7 +120,7 @@ header a {
 }
 
 
-/*margin 0 so the nav sticks to the top, and background colour of the whole website being set*/
+/*This just sets the background colour*/
 body{
 	margin: 0;
 	background: rgb(66, 126, 66);
@@ -127,6 +128,7 @@ body{
 
 
 /* boxes containing event details (boxes going down the screen) */
+/*Main container that sets up the grid for the event boxes*/
 div.main_container {
 	padding-top: 20px;
     width: 1200px;
@@ -137,6 +139,7 @@ div.main_container {
 	align-content: center;
 	margin: -40px auto auto auto;
 }
+/*Properties of the top left box*/
 .item-1 {
 	border-radius: 10px;
     grid-row-start: 1;
@@ -149,10 +152,12 @@ div.main_container {
 	height: 200px;
 	border: white solid 2px;
 }
+/*Makes the box move up and creates a shadow when you hover the box*/
 .item-1:hover{
 	transform: translateY(-1px);
 	box-shadow: 0px 6px 12px black;
 }
+/*Properties of top right box*/
 .item-2{
 	border-radius: 10px;
     grid-row-start: 1;
@@ -165,10 +170,12 @@ div.main_container {
 	height: 200px;
 	border: white solid 2px;
 }
+/*Makes the box move up and creates a shadow when you hover the box*/
 .item-2:hover{
 	transform: translateY(-1px);
 	box-shadow: 0px 12px 24px black;
 }
+/*Properties of bottom left box*/
 .item-3{
 	border-radius: 10px;
     grid-row-start: 4;
@@ -181,10 +188,12 @@ div.main_container {
 	height: 200px;
 	border: white solid 2px;
 }
+/*Makes the box move up and creates a shadow when you hover the box*/
 .item-3:hover{
 	transform: translateY(-1px);
 	box-shadow: 0px 12px 24px black;
 }
+/*Properties of bottom left box*/
 .item-4{
 	border-radius: 10px;
     grid-row-start: 4;
@@ -197,14 +206,17 @@ div.main_container {
 	height: 200px;
 	border: white solid 2px;
 }
+/*Makes the box move up and creates a shadow when you hover the box*/
 .item-4:hover{
 	transform: translateY(-1px);
 	box-shadow: 0px 12px 24px black;
 }
+/*Overall property for all team logos in event boxes */
 .event_teamlogos{
 	height: 100px;
 	width: 100px;
 }
+/*Adjusting the logos to fit properly*/
 .logo-1{
 	margin-top: 2px;
 	margin-left: 28px;
@@ -219,12 +231,14 @@ div.main_container {
 	height: 100px;
 	width: 100px;
 }
+/*VS Logo properties*/
 .vs{
 	margin-top: 2px;
 	margin-left: 75px;
 	height: 100px;
 	width: 100px;
 }
+/*Line seperating team logos and event details*/
 .line{
 	height: 1px;
 	width: 450px;
@@ -232,6 +246,7 @@ div.main_container {
 	margin-left: auto;
 	margin-right: auto;
 }
+/*Propeties for event text on all the boxes*/
 .event_details{
 	display: flex;
 	flex-direction: column;
@@ -241,15 +256,19 @@ div.main_container {
 	width: 510px;
 	margin-top: -20px;
 }
+/*Sets the clickable link in event details to green*/
 .event_details a{
 	color: limegreen;
 }
+/*margins for details text*/
 .event_details p{
 	margin: 5px 0px -2px 0px;
 }
+/*enlarges the paragraph that says the tournament name*/
 .event_details .tournament_enlarge{
 	font-size: 21px;
 }
+/*Footer properties*/
 footer {
     text-align: center;
     padding: 20px;
@@ -258,6 +277,7 @@ footer {
     margin-top: 50px;
     font-weight: bold;
 }
+/*Centers the cite for images at the bottom*/
 .image_cite{
 	display: flex;
 	justify-content: center; /* Horizontal centering */
