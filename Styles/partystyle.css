@@ -207,7 +207,7 @@ font-size: 30px;
     width: 201.417px;
 }
 
-
+/* Newsletter styleing */
 .Newsletter{
 
  padding-top: 20px;
@@ -216,7 +216,7 @@ font-size: 30px;
 }
 
 
-
+/* Background image for the navbar! */
 .bg-image {
 
     background-image: url("images/tavern.jpg");
@@ -229,7 +229,7 @@ font-size: 30px;
 }
 
 
-
+/* Revised Footer code! Thanks fellahs!. */
 .footer {
 
     text-align: center;
