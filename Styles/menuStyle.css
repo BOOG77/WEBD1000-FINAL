@@ -178,6 +178,9 @@ header a {
     flex-direction: column;
     align-items: center;
 }
+.box:hover {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
 
 
 
@@ -238,20 +241,21 @@ header a {
     text-align: left;
 }
 
-/*Drinks*/
-
-#drinks {
-    flex: 1;
+/*Drinks and Specials*/
+#blablabla {
+    height: 65px;/*same size*/
 }
 
+/*Drinks*/
+#drinks{
+    flex: 1;
+}
 #drinks .box h5 {
     text-align: left;
     margin: 5px 0;
     text-decoration: underline;
 }
-
 #drinks .box p {
-    margin: 0;
     text-align: left;
     font-size: 12px;
     font-style: italic;
@@ -259,13 +263,23 @@ header a {
     text-decoration: solid;
 }
 
-#cups {
-    height: 65px;
-}
+
 
 /*Specials*/
-#specials{
-    flex:1;
+#specials {
+    flex: 1;
+}
+#specials .box h5 {
+    text-align: left;
+    margin: 5px 0;
+    text-decoration: underline;
+}
+#specials .box p {
+    text-align: left;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: lighter;
+    text-decoration: solid;
 }
 /*End of Menu Section*/
 
