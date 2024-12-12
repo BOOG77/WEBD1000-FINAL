@@ -142,16 +142,16 @@ header a {
 }
 
 /*Appetizer*/
-.box-container {
-    display: flex;
+.box-container {/*container holding the container holding the content*/
+    display: flex;/*can be flexed*/
     flex-wrap: wrap; /*items wrap if they don't fit in row*/
-    gap: 15px;
+    gap: 15px;/*gap between the menu_col*/
     justify-content: space-between; /*spaces items out evenly*/
 }
 #image{
-    width: 100%;
+    width: 100%;/*image is same size as the container it is in*/
     height: auto;
-    border-radius: 15%;
+    border-radius: 15%;/*rounded edges*/
     padding: 5px 5px 2px 5px;
     border: 2px solid #6699cc;
     margin: 0 auto;
@@ -161,9 +161,10 @@ header a {
     width: 100%;
     height: auto;
     border-radius: 15%;
-    object-fit: cover;
+    object-fit: cover;/*is spread out in the div*/
 }
-.box {
+/*.box holds all the content for each item in appetizers, drinks and specials*/
+.box {/*used w3schools to help with this*/
     flex: 0 1 calc(20% - 15px); /*box width, minus gap*/
     max-width: calc(20% - 15px);
     box-sizing: border-box;
@@ -180,7 +181,7 @@ header a {
     color: rgb(216, 211, 211);
 }
 .box:hover {
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);/*a shadow appears when you hover over the box*/
 }
 
 
@@ -243,20 +244,20 @@ header a {
 }
 
 /*Drinks and Specials*/
-#blablabla {
+#blablabla {/*makes the items in drinks and special even*/
     height: 65px;/*same size*/
 }
 
 /*Drinks*/
 #drinks{
-    flex: 1;
+    flex: 1;/*half of the col*/
 }
-#drinks .box h5 {
+#drinks .box h5 {/*h5 is the side effects*/
     text-align: left;
     margin: 5px 0;
     text-decoration: underline;
 }
-#drinks .box p {
+#drinks .box p {/*decoration of the font*/
     text-align: left;
     font-size: 12px;
     font-style: italic;
@@ -268,7 +269,7 @@ header a {
 
 /*Specials*/
 #specials {
-    flex: 1;
+    flex: 1;/*other half of the col*/
 }
 #specials .box h5 {
     text-align: left;
